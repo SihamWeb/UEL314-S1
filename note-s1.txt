@@ -2,4 +2,4 @@ NOTE : 20/20
 
 Bravo c'est un sans faute, votre exercice est parfait.
 
-Je me suis juste permis de mettre à jour vos packages car certains avais des failles de sécurité importantes, vous pouvez retrouver l'ancien dans le dossier tests.
+Je me suis permis de mettre à jour vos packages, car certains présentaient des failles de sécurité importantes. Vous pouvez retrouver les versions précédentes dans le dossier tests.
