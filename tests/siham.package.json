@@ -1,32 +1,21 @@
 {
-  "name": "ue3dw24_s1-correction",
+  "name": "l314-s1",
   "version": "1.0.0",
-  "description": "Correction du devoir de l'ue L314 de semaine 1",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon start",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SofianeHadjadjUnilim/UE3DW24_S1-correction.git"
-  },
-  "keywords": [
-    "UEL314",
-    "nodejs",
-    "api",
-    "rest"
-  ],
-  "author": "Sofiane Hadjadj",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SofianeHadjadjUnilim/UE3DW24_S1-correction/issues"
-  },
-  "homepage": "https://github.com/SofianeHadjadjUnilim/UE3DW24_S1-correction#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "cov": "^0.1.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mariadb": "^3.2.2",
     "mysql": "^2.18.1",
     "mysql2": "^3.6.5",
     "pg": "^8.11.3",
@@ -39,7 +28,9 @@
     "jest-config": "^29.7.0",
     "jest-json-schema": "^6.1.0",
     "jest-junit-reporter": "^1.1.0",
+    "mocha": "^10.2.0",
     "nodemon": "^3.0.2",
+    "nyc": "^15.1.0",
     "sinon": "^17.0.1",
     "supertest": "^6.3.3"
   }
